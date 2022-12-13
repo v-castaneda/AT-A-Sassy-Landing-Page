@@ -1,5 +1,7 @@
 // import utilities partial
-@use "utilities";
+@import "btnConfig";
+@import "utilities";
+@import "config";
 
 * {
   box-sizing: border-box;

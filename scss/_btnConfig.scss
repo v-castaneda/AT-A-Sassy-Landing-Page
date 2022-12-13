@@ -1,6 +1,6 @@
 // import config and utilities partials
-@use "config";
-@use "utilities";
+@import "utilities";
+@import "config";
 
 %btn {
     display: inline-block;
