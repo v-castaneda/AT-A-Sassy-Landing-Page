@@ -7,3 +7,9 @@
         @return white;
     }
 }
+
+// SCSS Mixin
+@mixin set-bg($color) {
+    background-color: $color;
+    color: text-color-picker();
+}
